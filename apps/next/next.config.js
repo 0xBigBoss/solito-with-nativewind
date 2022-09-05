@@ -9,13 +9,15 @@ const withPlugins = require('next-compose-plugins')
 const withTM = require('next-transpile-modules')([
   'solito',
   'moti',
-  '@motify/core',
-  '@motify/components',
   'nativewind',
   'app',
 ])
 
-module.exports = withPlugins(
-  [withTM, [withExpo, { projectRoot: __dirname }]],
-  nextConfig
-)
+const transform = withPlugins([withTM, withFonts, withImages, withExpo])
+
+module.exports = function (name, { defaultConfig }) {
+  return transform(name, {
+    ...defaultConfig,
+    ...nextConfig,
+  })
+}
