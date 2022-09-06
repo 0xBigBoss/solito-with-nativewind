@@ -1,9 +1,5 @@
 # Solito + NativeWind CSS Example Monorepo 🕴
 
-```sh
-npx create-solito-app@latest my-solito-app with-nativewind
-```
-
 ## ⚡️ Instantly clone & deploy
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2F0xBigBoss%2Fsolito-with-nativewind%2Ftree%2Fmaster&env=ENABLE_ROOT_PATH_BUILD_CACHE&root-directory=apps/next&envDescription=Set%20this%20environment%20variable%20to%201%20for%20Turborepo%20to%20cache%20your%20node_modules.&envLink=https%3A%2F%2Ftwitter.com%2Fjaredpalmer%2Fstatus%2F1488954563533189124&project-name=solito-app&repo-name=solito-app&demo-title=Solito%20App%20%E2%9A%A1%EF%B8%8F&demo-description=React%20Native%20%2B%20Next.js%20starter%20with%20Solito.%20Made%20by%20Fernando%20Rojo.&demo-url=https%3A%2F%2Fsolito.dev%2Fstarter&demo-image=https%3A%2F%2Fsolito.dev%2Fimg%2Fog.png)
@@ -27,7 +23,7 @@ Since two different compilation methods are used across platforms, the component
 - `solito` for cross-platform navigation
 - `moti` for animations
 - `NativeWind` for theming/design (you can bring your own, too)
-- Expo SDK 44
+- Expo SDK 46
 - Next.js 12
 - React Navigation 6
 
@@ -95,9 +91,13 @@ Follow Fernando Rojo, creator of `solito`, on Twitter: [@FernandoTheRojo](https:
 
 Follow Mark Lawlor, creator of `NativeWind`, on Twitter: [@mark\_\_lawlor](https://twitter.com/mark__lawlor)
 
+### BigBoss
+
+Follow BigBoss, creator of this repository, on Twitter: [@zeroxBigBoss](https://twitter.com/zeroxBigBoss)
+
 ## 🧐 Why use Expo + Next.js?
 
-See my talk about this topic at Next.js Conf 2021:
+See Fernando's talk about this topic at Next.js Conf 2021:
 
 <a href="https://www.youtube.com/watch?v=0lnbdRweJtA"><img width="1332" alt="image" src="https://user-images.githubusercontent.com/13172299/157299915-b633e083-f271-48c6-a262-7b7eef765be5.png">
 </a>
