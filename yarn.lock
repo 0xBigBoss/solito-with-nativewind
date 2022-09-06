@@ -8146,9 +8146,9 @@ nanomatch@^1.2.9:
     to-regex "^3.0.1"
 
 nativewind@latest:
-  version "2.0.7"
-  resolved "https://registry.yarnpkg.com/nativewind/-/nativewind-2.0.7.tgz#8ffacc797185f9d728b03e6ff16d441355535112"
-  integrity sha512-LMluvKclbOcjVl2IzMUJcdTQfsKfyRA5wxfv7IVtG9tkUDiXaQXTxA3WqMM+yptB6+iOgXXoiGmagXZaUlSCTA==
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/nativewind/-/nativewind-2.0.8.tgz#3887f76fb99a007f92e0daf1891a93034affd6a9"
+  integrity sha512-gC/eJ13pBbwTFRGcYobZn4H2+fAC6eVqHD6vkMzwlXVUArAXzKgEKF0evJLzB6vIsEmI1pOlNVEZN3e9lJgUmg==
   dependencies:
     "@babel/generator" "^7.18.7"
     "@babel/helper-module-imports" "7.18.6"
@@ -9776,10 +9776,23 @@ react-native-gradle-plugin@^0.70.2:
   resolved "https://registry.yarnpkg.com/react-native-gradle-plugin/-/react-native-gradle-plugin-0.70.2.tgz#b5130f2c196e27c4c5912706503d69b8790f1937"
   integrity sha512-k7d+CVh0fs/VntA2WaKD58cFB2rtiSLBHYlciH18ncaT4N/B3A4qOGv9pSCEHfQikELm6vAf98KMbE3c8KnH1A==
 
-react-native-reanimated@2.8.0, react-native-reanimated@~2.10.0:
+react-native-reanimated@2.8.0:
   version "2.8.0"
   resolved "https://registry.yarnpkg.com/react-native-reanimated/-/react-native-reanimated-2.8.0.tgz#93c06ca84d91fb3865110b0857c49a24e316130e"
   integrity sha512-kJvf/UWLBMaGCs9X66MKq5zdFMgwx8D0nHnolbHR7s8ZnbLdb7TlQ/yuzIXqn/9wABfnwtNRI3CyaP1aHWMmZg==
+  dependencies:
+    "@babel/plugin-transform-object-assign" "^7.16.7"
+    "@babel/preset-typescript" "^7.16.7"
+    "@types/invariant" "^2.2.35"
+    invariant "^2.2.4"
+    lodash.isequal "^4.5.0"
+    setimmediate "^1.0.5"
+    string-hash-64 "^1.0.3"
+
+react-native-reanimated@~2.10.0:
+  version "2.10.0"
+  resolved "https://registry.yarnpkg.com/react-native-reanimated/-/react-native-reanimated-2.10.0.tgz#ed53be66bbb553b5b5e93e93ef4217c87b8c73db"
+  integrity sha512-jKm3xz5nX7ABtHzzuuLmawP0pFWP77lXNdIC6AWOceBs23OHUaJ29p4prxr/7Sb588GwTbkPsYkDqVFaE3ezNQ==
   dependencies:
     "@babel/plugin-transform-object-assign" "^7.16.7"
     "@babel/preset-typescript" "^7.16.7"
